@@ -1,0 +1,74 @@
+:: StoryTitle
+Twine Minigame 2
+
+
+:: StoryData
+{
+  "ifid": "d1d488d1-e008-43d0-8226-d7aa8a51892b",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: Approach it slowly {"position":"450,275","size":"100,100"}
+The dragon notices you and is now on alert.
+
+-[[Try to pet it]]
+-[[Try to kill it]]
+-[[Back away]]
+
+
+:: Back away {"position":"200,500","size":"100,100"}
+You [[back away->Watch from a distance]] to where you came from. The dragon thinks you've left.,
+
+
+
+:: Give it some food {"position":"450,525","size":"100,100"}
+You give the dragon some food and it lets you pet it. You leave the forest with a new friend.
+
+See another path by [[going back to the beginning->Start]]
+
+
+:: Start {"position":"475,125","size":"100,100"}
+!A dragon in the forest
+
+You are hiking through a forest when you see a ''dragon'' drinking from a lake.
+What do you do?
+
+-[[Approach it slowly]]
+-[[Watch from a distance]]
+-[[Throw a rock at it]
+
+
+:: Stay where you are {"position":"575,525","size":"100,100"}
+The dragon finishes drinking and flies away. You should be quicker next time.
+Go back to [[Start]]
+
+
+:: Throw a rock at it {"position":"325,275","size":"100,100"}
+You throw a rock at the dragon, which scares it away.
+
+Try again by [[going back to the beginning->Start]]
+
+
+:: Try to kill it {"position":"675,375","size":"100,100"}
+//It turns out, human flesh isn't fireproof.//
+
+Try again by [[going back to the beginning->Start]]
+
+
+:: Try to pet it {"position":"450,400","size":"100,100"}
+You try to pet the dragon, but it doesn't seem to understand the gesture and becomes defensive, what do you do?
+
+-[[Give it some food]]
+-[[Back away]] <!--leads to "watch from a distance" passage-->
+
+
+:: Watch from a distance {"position":"575,275","size":"100,100"}
+You observe the dragon from behind a rock.
+What do you do?
+
+-[[Move closer->Approach it slowly]]
+-[[Stay where you are]]
